@@ -10,10 +10,14 @@
 header{
     background-color: rgb(46, 99, 99);
     height: 50px;
+    position: fixed;
+    width: 100%;
 }
 nav{
     display: flex;
     height: inherit;
+    width: 100%;
+    justify-content: start;
     align-items: center;   
 }
 
@@ -23,6 +27,9 @@ color: rgb(255, 255, 255);
 padding: 0 20px;
 font-size: 20px;
 }
+nav > a:hover {
+    color:lightblue;
+    }
 #about-us{
     /* display: flex; */
     margin: 0 auto;

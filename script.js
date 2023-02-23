@@ -382,4 +382,4 @@ function getPost() {
 // }
 // createPost('title', 'body', 15)
 
-showPostsBTN.onclick = getPost
+ showPostsBTN.onclick = getPost
