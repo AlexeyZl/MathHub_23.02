@@ -12,11 +12,12 @@ header{
     height: 50px;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 nav{
     display: flex;
     height: inherit;
-    width: 100%;
+    width: inherit;
     justify-content: start;
     align-items: center;   
 }
@@ -31,12 +32,31 @@ nav > a:hover {
     color:lightblue;
     }
 #about-us{
-    /* display: flex; */
     margin: 0 auto;
     text-align: center;
 }
-
-
+main{
+    margin-top: 60px;
+}
+hr {
+    border: none;
+    height: 3px;
+    margin: 40px 0;
+    background-image: linear-gradient(to right, #FFF, #266363, #FFF);
+}
+hr:before,
+hr:after {
+    content: '';
+    display: inline-block;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #266363;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+}
 img{
     width: 300px;
     height: 300px;
@@ -109,4 +129,13 @@ img{
     padding: 10px;
     border-radius: 10px;
     background-color: lightgray;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 5px 10px;
+}
+footer{
+    text-align: center;
 }
